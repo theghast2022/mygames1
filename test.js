@@ -283,4 +283,4 @@ client.on('ready', function(){
    });
 		   
 
-client.login('NTEzMTE3NDcyMjk2MTQwODIx.DtRduA.iFdmhSfFF6mwjQzohBWD3X_1deI');
+client.login(process.env.BOT_TOKEN);
