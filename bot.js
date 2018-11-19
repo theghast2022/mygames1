@@ -213,8 +213,6 @@ client.on('message', message => {
  
 -قم بتجميع الحروف ➼ تحدي
  
--لعرض النقاط الخاصة بك ➼ نقاطي
- 
  ✧▬▬▬▬▬▬ BOT Games ▬▬▬▬▬▬✧`)
  .setFooter("By : ˣᴾᴿᴼ |The_Ghast | LD#2559")
    message.channel.sendEmbed(embed)
