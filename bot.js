@@ -3,6 +3,17 @@ const client = new Discord.Client();
 const moment = require("moment");
 const fs = require("fs");
 
+
+client.on('ready', () => {
+   console.log(`----------------`);
+      console.log(`Desert Bot- Code By : ZorexHost`);
+        console.log(`----------------`);
+      console.log(`ON ${client.guilds.size} Servers '     Code By : ZorexHost `);
+    console.log(`----------------`);
+  console.log(`Logged in as ${client.user.tag}!`);
+client.user.setGame(`-help | Games XPRO`,"http://twitch.tv/S-F")
+client.user.setStatus("dnd")
+});
 ///البكجات//
 //npm i discord.js --save//
 //npm i moment//
